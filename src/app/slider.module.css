@@ -3,25 +3,28 @@
     width: 300px;
     display: flex;
     justify-content: space-around;
-    background-color: lightgrey;
+    background-color: #eee;
     flex-direction: row;
     align-items: center;
 }
 
 .sliderLabel{
     font-family: sans-serif;
-    background-color: white;
-    text-align: center;
-    padding: 5%;
-    margin:5%
+    font-size: 0.8em;
+    width:50px;
+    overflow: hidden;
+    flex-shrink: 5;
+    flex-grow: 0;
+    padding: 5px;
 }
 
 .sliderBar{
-    width: 100%;
-    height: 3px;
-    border-radius: 5%;
-    background-color: violet;
-    margin:5%
+    width: 200px;
+    height: 0px;
+    border-radius: 10px;
+    border:2px solid violet;
+    margin:5%;
+    flex-shrink: 0;
 }
 
 .sliderKnob{
